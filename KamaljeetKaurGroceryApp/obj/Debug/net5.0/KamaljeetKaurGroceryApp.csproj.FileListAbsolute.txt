@@ -19,7 +19,6 @@ C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetK
 C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\obj\Debug\net5.0\KamaljeetKaurGroceryApp.RazorComponent.input.cache
 C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
 C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
-C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\obj\Debug\net5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
 C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
@@ -32,7 +31,6 @@ C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetK
 C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\obj\Debug\net5.0\KamaljeetKaurGroceryApp.RazorCoreGenerate.cache
 C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\obj\Debug\net5.0\Razor\App.razor.g.cs
 C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\obj\Debug\net5.0\Razor\Pages\Counter.razor.g.cs
-C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\obj\Debug\net5.0\Razor\Pages\FetchData.razor.g.cs
 C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
 C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
 C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
@@ -58,3 +56,5 @@ C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetK
 C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\obj\Debug\net5.0\KamaljeetKaurGroceryApp.csproj.CopyComplete
 C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\obj\Debug\net5.0\RazorDeclaration\Pages\GroceryStore.razor.g.cs
 C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\obj\Debug\net5.0\Razor\Pages\GroceryStore.razor.g.cs
+C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\obj\Debug\net5.0\RazorDeclaration\Shared\GroceryStoreComponent.razor.g.cs
+C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\obj\Debug\net5.0\Razor\Shared\GroceryStoreComponent.razor.g.cs

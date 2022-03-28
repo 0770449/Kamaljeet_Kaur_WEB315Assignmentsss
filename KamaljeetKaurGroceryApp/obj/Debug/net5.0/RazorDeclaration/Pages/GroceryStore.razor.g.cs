@@ -82,6 +82,7 @@ using KamaljeetKaurGroceryApp.Shared;
 #line default
 #line hidden
 #nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/grocery-store")]
     public partial class GroceryStore : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

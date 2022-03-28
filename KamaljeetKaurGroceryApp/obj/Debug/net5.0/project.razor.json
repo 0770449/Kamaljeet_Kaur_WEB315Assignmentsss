@@ -45,39 +45,6 @@
         }
       },
       {
-        "HashCode": 1623109571,
-        "Kind": "Components.Component",
-        "Name": "KamaljeetKaurGroceryApp.Pages.FetchData",
-        "AssemblyName": "KamaljeetKaurGroceryApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KamaljeetKaurGroceryApp.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 1115962039,
-        "Kind": "Components.Component",
-        "Name": "KamaljeetKaurGroceryApp.Pages.FetchData",
-        "AssemblyName": "KamaljeetKaurGroceryApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "KamaljeetKaurGroceryApp.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KamaljeetKaurGroceryApp.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 165029942,
         "Kind": "Components.Component",
         "Name": "KamaljeetKaurGroceryApp.Pages.GroceryStore",
@@ -355,6 +322,59 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "KamaljeetKaurGroceryApp.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1014594409,
+        "Kind": "Components.Component",
+        "Name": "KamaljeetKaurGroceryApp.Shared.GroceryStoreComponent",
+        "AssemblyName": "KamaljeetKaurGroceryApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "GroceryStoreComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ShowAddFoodForm",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "ShowAddFoodForm"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KamaljeetKaurGroceryApp.Shared.GroceryStoreComponent"
+        }
+      },
+      {
+        "HashCode": -879873679,
+        "Kind": "Components.Component",
+        "Name": "KamaljeetKaurGroceryApp.Shared.GroceryStoreComponent",
+        "AssemblyName": "KamaljeetKaurGroceryApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KamaljeetKaurGroceryApp.Shared.GroceryStoreComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ShowAddFoodForm",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "ShowAddFoodForm"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KamaljeetKaurGroceryApp.Shared.GroceryStoreComponent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -15966,6 +15986,11 @@
   "RootNamespace": "KamaljeetKaurGroceryApp",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\hp\\OneDrive\\Documents\\GitHub\\WEB315Assignment_Kamaljeet_Kaur\\KamaljeetKaurGroceryApp\\Shared\\GroceryStoreComponent.razor",
+      "TargetPath": "Shared\\GroceryStoreComponent.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\hp\\OneDrive\\Documents\\GitHub\\WEB315Assignment_Kamaljeet_Kaur\\KamaljeetKaurGroceryApp\\Pages\\Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
       "FileKind": "component"
@@ -15993,11 +16018,6 @@
     {
       "FilePath": "c:\\Users\\hp\\OneDrive\\Documents\\GitHub\\WEB315Assignment_Kamaljeet_Kaur\\KamaljeetKaurGroceryApp\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\hp\\OneDrive\\Documents\\GitHub\\WEB315Assignment_Kamaljeet_Kaur\\KamaljeetKaurGroceryApp\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
       "FileKind": "component"
     },
     {

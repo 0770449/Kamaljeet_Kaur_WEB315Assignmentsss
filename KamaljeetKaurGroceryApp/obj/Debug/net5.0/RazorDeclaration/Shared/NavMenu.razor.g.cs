@@ -90,7 +90,7 @@ using KamaljeetKaurGroceryApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\Shared\NavMenu.razor"
+#line 23 "C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 
