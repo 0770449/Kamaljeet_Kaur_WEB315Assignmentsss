@@ -5,9 +5,9 @@ public class GroceryIsle
 {
     public List<FoodItem> ListofFoodItems;
     public string IsleName { get; set; }
-    public float IsleNumber { get; set; } 
+    public int IsleNumber { get; set; } 
 
-    public GroceryIsle (string IsleName, float IsleNumber, List<FoodItem> ListofFoodItems)
+    public GroceryIsle (string IsleName, int IsleNumber, List<FoodItem> ListofFoodItems)
     {
         this.IsleName = IsleName;
         this.IsleNumber = IsleNumber;

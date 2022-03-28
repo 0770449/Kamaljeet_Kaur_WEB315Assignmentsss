@@ -90,7 +90,7 @@ using KamaljeetKaurGroceryApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 63 "C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\Shared\GroceryStoreComponent.razor"
+#line 65 "C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\Shared\GroceryStoreComponent.razor"
     
     [Parameter]
     public bool ShowAddFoodForm { get; set; }
@@ -98,25 +98,27 @@ using KamaljeetKaurGroceryApp.Shared;
     private string foodNameInput;
     private string ProductionCountryInput;
     private string PriceInput;
+    private string ColorInput;
+
     private string quantityInput;
     private List<GroceryIsle> islesList = new ()
         {
             new GroceryIsle("DairyProducts", 1, new List<FoodItem>()
             {
                 
-                new FoodItem {FoodName = "Milk", Quantity = 15, ProductionCountry = "Canada", Price = 4f},
-                new FoodItem {FoodName = "Curd", Quantity = 5, ProductionCountry= "India", Price = 7f},
+                new FoodItem {FoodName = "Milk", Quantity = 15, ProductionCountry = "Canada", Price = 4f, Color="White"},
+                new FoodItem {FoodName = "Curd", Quantity = 5, ProductionCountry= "India", Price = 7f, Color="White"},
             }),
            
             new GroceryIsle("Sweets", 2, new List<FoodItem>()
             {
-                new FoodItem {FoodName = "Gulab-jamun", Quantity = 17, ProductionCountry = "India", Price = 5.4f},
-                new FoodItem {FoodName = "Ladoo", Quantity = 9, ProductionCountry = "India", Price = 4f}
+                new FoodItem {FoodName = "Gulab-jamun", Quantity = 17, ProductionCountry = "India", Price = 5.4f, Color="Brown"},
+                new FoodItem {FoodName = "Ladoo", Quantity = 9, ProductionCountry = "India", Price = 4f, Color="Yellow"}
             }),
              new GroceryIsle("Drinks", 3, new List<FoodItem>()
             {
-                new FoodItem {FoodName = "Mango-juice", Quantity = 13, ProductionCountry = "Canada", Price = 6f},
-                new FoodItem {FoodName = "Apple-juice", Quantity = 16, ProductionCountry = "Tirana", Price = 9.7f}
+                new FoodItem {FoodName = "Mango-juice", Quantity = 13, ProductionCountry = "Canada", Price = 6f, Color="Yellow"},
+                new FoodItem {FoodName = "Apple-juice", Quantity = 16, ProductionCountry = "Tirana", Price = 9.7f, Color="Red"}
             })
         };
 // Make sure each food item has a quantity above 0 but below 20 set.
@@ -145,6 +147,7 @@ using KamaljeetKaurGroceryApp.Shared;
         if (string.IsNullOrWhiteSpace(foodNameInput)) return;
         if (string.IsNullOrWhiteSpace(ProductionCountryInput)) return;
         if (string.IsNullOrWhiteSpace(PriceInput)) return;
+        if (string.IsNullOrWhiteSpace(ColorInput)) return;
         if (string.IsNullOrWhiteSpace(quantityInput)) return;
 
         FoodItem newFoodItem = new FoodItem 
@@ -152,13 +155,15 @@ using KamaljeetKaurGroceryApp.Shared;
                  Quantity = float.Parse(quantityInput),
                 FoodName = foodNameInput,
                 ProductionCountry= ProductionCountryInput,
-                Price = float.Parse(PriceInput)
+                Price = float.Parse(PriceInput),
+                Color= ColorInput,
             };
 
         isleInput = "";  // string.Empty;
         foodNameInput = "";
         ProductionCountryInput = "";
         PriceInput = "";
+        ColorInput="";
         quantityInput = "";
     }
 

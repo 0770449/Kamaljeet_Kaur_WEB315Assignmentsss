@@ -45,39 +45,6 @@
         }
       },
       {
-        "HashCode": 165029942,
-        "Kind": "Components.Component",
-        "Name": "KamaljeetKaurGroceryApp.Pages.GroceryStore",
-        "AssemblyName": "KamaljeetKaurGroceryApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "GroceryStore"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KamaljeetKaurGroceryApp.Pages.GroceryStore"
-        }
-      },
-      {
-        "HashCode": -914327176,
-        "Kind": "Components.Component",
-        "Name": "KamaljeetKaurGroceryApp.Pages.GroceryStore",
-        "AssemblyName": "KamaljeetKaurGroceryApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "KamaljeetKaurGroceryApp.Pages.GroceryStore"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KamaljeetKaurGroceryApp.Pages.GroceryStore",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1655104392,
         "Kind": "Components.Component",
         "Name": "KamaljeetKaurGroceryApp.Pages.Index",
@@ -107,6 +74,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "KamaljeetKaurGroceryApp.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 165029942,
+        "Kind": "Components.Component",
+        "Name": "KamaljeetKaurGroceryApp.Pages.GroceryStore",
+        "AssemblyName": "KamaljeetKaurGroceryApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "GroceryStore"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KamaljeetKaurGroceryApp.Pages.GroceryStore"
+        }
+      },
+      {
+        "HashCode": -914327176,
+        "Kind": "Components.Component",
+        "Name": "KamaljeetKaurGroceryApp.Pages.GroceryStore",
+        "AssemblyName": "KamaljeetKaurGroceryApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KamaljeetKaurGroceryApp.Pages.GroceryStore"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KamaljeetKaurGroceryApp.Pages.GroceryStore",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
