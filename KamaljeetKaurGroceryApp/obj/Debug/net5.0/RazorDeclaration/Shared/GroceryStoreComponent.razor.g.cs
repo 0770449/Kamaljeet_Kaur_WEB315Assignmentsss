@@ -159,15 +159,7 @@ using KamaljeetKaurGroceryApp.Shared;
             };
 
 
-        try
-        {
-            var isleToUpdate = islesList.Find(isle => isle.IsleNumber == decimal.Parse(isleInputbox));
-            isleToUpdate.ListofFoodItems.Add(newFoodItem);
-        }
-        catch (Exception err)
-        {
-            throw err;
-        }
+       
 
         isleInputbox = "";//string empty
         foodNameInputbox = "";
