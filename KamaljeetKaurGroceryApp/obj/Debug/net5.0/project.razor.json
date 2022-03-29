@@ -326,7 +326,7 @@
         }
       },
       {
-        "HashCode": 1014594409,
+        "HashCode": 992808453,
         "Kind": "Components.Component",
         "Name": "KamaljeetKaurGroceryApp.Shared.GroceryStoreComponent",
         "AssemblyName": "KamaljeetKaurGroceryApp",
@@ -339,10 +339,10 @@
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "ShowAddFoodForm",
+            "Name": "AddFoodForm",
             "TypeName": "System.Boolean",
             "Metadata": {
-              "Common.PropertyName": "ShowAddFoodForm"
+              "Common.PropertyName": "AddFoodForm"
             }
           }
         ],
@@ -352,7 +352,7 @@
         }
       },
       {
-        "HashCode": -879873679,
+        "HashCode": -137442203,
         "Kind": "Components.Component",
         "Name": "KamaljeetKaurGroceryApp.Shared.GroceryStoreComponent",
         "AssemblyName": "KamaljeetKaurGroceryApp",
@@ -365,10 +365,10 @@
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "ShowAddFoodForm",
+            "Name": "AddFoodForm",
             "TypeName": "System.Boolean",
             "Metadata": {
-              "Common.PropertyName": "ShowAddFoodForm"
+              "Common.PropertyName": "AddFoodForm"
             }
           }
         ],

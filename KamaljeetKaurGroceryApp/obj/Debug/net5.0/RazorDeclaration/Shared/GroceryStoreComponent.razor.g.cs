@@ -93,14 +93,15 @@ using KamaljeetKaurGroceryApp.Shared;
 #line 65 "C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurGroceryApp\Shared\GroceryStoreComponent.razor"
     
     [Parameter]
-    public bool ShowAddFoodForm { get; set; }
-    private string isleInput;
-    private string foodNameInput;
-    private string ProductionCountryInput;
-    private string PriceInput;
-    private string ColorInput;
+    public bool AddFoodForm { get; set; }
+    private string isleInputbox;
+    private string foodNameInputbox;
+    
+    private string PriceInputbox;
+    private string ProductionCountryInputbox;
+    private string ColorInputbox;
 
-    private string quantityInput;
+    private string quantityInputbox;
     private List<GroceryIsle> islesList = new ()
         {
             new GroceryIsle("DairyProducts", 1, new List<FoodItem>()
@@ -122,50 +123,60 @@ using KamaljeetKaurGroceryApp.Shared;
             })
         };
 // Make sure each food item has a quantity above 0 but below 20 set.
-    private void IncreaseQuantity (FoodItem foodItem, float isleNumber)
+    private void IncreaseQnty (FoodItem foodItem, int isleNumber)
     {
-        var foundIsle = islesList.Find(isle => isle.IsleNumber == isleNumber);
-        var foundFood = foundIsle.ListofFoodItems.Find(food => food.FoodName == foodItem.FoodName);
+        var groceryIsle = islesList.Find(isle => isle.IsleNumber == isleNumber);
+        var groceryFood = groceryIsle.ListofFoodItems.Find(food => food.FoodName == foodItem.FoodName);
 
-        if (foundFood.Quantity >= 20) return;
+        if (groceryFood.Quantity >= 20) return;
  
-        foundFood.Quantity += 1;
+        groceryFood.Quantity += 1;
     }
-     private void DecreaseQuantity (FoodItem foodItem, float isleNumber)
+     private void DecreaseQnty (FoodItem foodItem, float isleNumber)
     {
-        var foundIsle = islesList.Find(isle => isle.IsleNumber == isleNumber);
-        var foundFood = foundIsle.ListofFoodItems.Find(food => food.FoodName == foodItem.FoodName);
+        var groceryIsle = islesList.Find(isle => isle.IsleNumber == isleNumber);
+        var groceryFood = groceryIsle.ListofFoodItems.Find(food => food.FoodName == foodItem.FoodName);
 
-        if (foundFood.Quantity <= 0) return;
+        if (groceryFood.Quantity <= 0) return;
 
-        foundFood.Quantity -= 1;
+        groceryFood.Quantity -= 1;
     }
-
-    private void AddNewFoodItem ()
+     private void AddFood()
     {
-        if (string.IsNullOrWhiteSpace(isleInput)) return;  //cheacking for whitespace or Is null
-        if (string.IsNullOrWhiteSpace(foodNameInput)) return;
-        if (string.IsNullOrWhiteSpace(ProductionCountryInput)) return;
-        if (string.IsNullOrWhiteSpace(PriceInput)) return;
-        if (string.IsNullOrWhiteSpace(ColorInput)) return;
-        if (string.IsNullOrWhiteSpace(quantityInput)) return;
+        if (string.IsNullOrWhiteSpace(isleInputbox)) return;// checking for white space and is null
+        if (string.IsNullOrWhiteSpace(foodNameInputbox)) return;
+        if (string.IsNullOrWhiteSpace(ProductionCountryInputbox)) return;
+        if (string.IsNullOrWhiteSpace(PriceInputbox)) return;
+        if (string.IsNullOrWhiteSpace(quantityInputbox)) return;
 
         FoodItem newFoodItem = new FoodItem 
             {
-                 Quantity = float.Parse(quantityInput),
-                FoodName = foodNameInput,
-                ProductionCountry= ProductionCountryInput,
-                Price = float.Parse(PriceInput),
-                Color= ColorInput,
+                FoodName = foodNameInputbox,
+                Quantity = float.Parse(quantityInputbox),
+                ProductionCountry = ProductionCountryInputbox,
+                Color = ColorInputbox,
+                Price = float.Parse(PriceInputbox)
             };
 
-        isleInput = "";  // string.Empty;
-        foodNameInput = "";
-        ProductionCountryInput = "";
-        PriceInput = "";
-        ColorInput="";
-        quantityInput = "";
+
+        try
+        {
+            var isleToUpdate = islesList.Find(isle => isle.IsleNumber == decimal.Parse(isleInputbox));
+            isleToUpdate.ListofFoodItems.Add(newFoodItem);
+        }
+        catch (Exception err)
+        {
+            throw err;
+        }
+
+        isleInputbox = "";//string empty
+        foodNameInputbox = "";
+        ProductionCountryInputbox = "";
+        ColorInputbox = "";
+        PriceInputbox = "";
+        quantityInputbox = "";
     }
+
 
 #line default
 #line hidden
