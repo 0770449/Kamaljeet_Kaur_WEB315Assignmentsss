@@ -1,0 +1,12 @@
+C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Shared\bin\Debug\net5.0\KamaljeetKaurChat.Shared.deps.json
+C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Shared\bin\Debug\net5.0\KamaljeetKaurChat.Shared.dll
+C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Shared\bin\Debug\net5.0\ref\KamaljeetKaurChat.Shared.dll
+C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Shared\bin\Debug\net5.0\KamaljeetKaurChat.Shared.pdb
+C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Shared\obj\Debug\net5.0\KamaljeetKaurChat.Shared.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Shared\obj\Debug\net5.0\KamaljeetKaurChat.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Shared\obj\Debug\net5.0\KamaljeetKaurChat.Shared.AssemblyInfoInputs.cache
+C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Shared\obj\Debug\net5.0\KamaljeetKaurChat.Shared.AssemblyInfo.cs
+C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Shared\obj\Debug\net5.0\KamaljeetKaurChat.Shared.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Shared\obj\Debug\net5.0\KamaljeetKaurChat.Shared.dll
+C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Shared\obj\Debug\net5.0\ref\KamaljeetKaurChat.Shared.dll
+C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Shared\obj\Debug\net5.0\KamaljeetKaurChat.Shared.pdb
