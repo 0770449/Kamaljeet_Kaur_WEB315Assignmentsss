@@ -3927,6 +3927,39 @@
         }
       },
       {
+        "HashCode": -626337816,
+        "Kind": "Components.Component",
+        "Name": "KamaljeetKaurChat.Client.App",
+        "AssemblyName": "KamaljeetKaurChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KamaljeetKaurChat.Client.App"
+        }
+      },
+      {
+        "HashCode": -244731170,
+        "Kind": "Components.Component",
+        "Name": "KamaljeetKaurChat.Client.App",
+        "AssemblyName": "KamaljeetKaurChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KamaljeetKaurChat.Client.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KamaljeetKaurChat.Client.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 309358845,
         "Kind": "Components.Component",
         "Name": "KamaljeetKaurChat.Client.Pages.Chat",
@@ -4055,39 +4088,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "KamaljeetKaurChat.Client.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -626337816,
-        "Kind": "Components.Component",
-        "Name": "KamaljeetKaurChat.Client.App",
-        "AssemblyName": "KamaljeetKaurChat.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KamaljeetKaurChat.Client.App"
-        }
-      },
-      {
-        "HashCode": -244731170,
-        "Kind": "Components.Component",
-        "Name": "KamaljeetKaurChat.Client.App",
-        "AssemblyName": "KamaljeetKaurChat.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "KamaljeetKaurChat.Client.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KamaljeetKaurChat.Client.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

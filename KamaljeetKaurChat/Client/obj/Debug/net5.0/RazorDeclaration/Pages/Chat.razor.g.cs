@@ -98,23 +98,30 @@ using Microsoft.AspNetCore.SignalR.Client;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 29 "C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Client\Pages\Chat.razor"
+#line 30 "C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Client\Pages\Chat.razor"
        
     private HubConnection hubConnection;
     private List<string> messages = new List<string>();
     private string userInput;
     private string messageInput;
-
+    private string userisTyping;
     protected override async Task OnInitializedAsync()
     {
         hubConnection = new HubConnectionBuilder()
             .WithUrl(NavigationManager.ToAbsoluteUri("/chathub"))
             .Build();
 
-        hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
+        hubConnection.On<string, string>("ReceivingMessageFromAUser", (user, message) =>
         {
             var encodedMsg = $"{user}: {message}";
             messages.Add(encodedMsg);
+            StateHasChanged();
+        });
+         hubConnection.On<string>("ReceivingWhoIsTyping", (user) =>
+        {
+           
+          var userisTyping  =  $"{user} is typing";
+           messages.Add( userisTyping);
             StateHasChanged();
         });
 
@@ -122,8 +129,13 @@ using Microsoft.AspNetCore.SignalR.Client;
     }
 
     async Task Send() =>
-        await hubConnection.SendAsync("SendMessage", userInput, messageInput);
-
+    await hubConnection.SendAsync("SendMessage", userInput, messageInput);
+    async Task SendMsgToCaller() =>
+    await hubConnection.SendAsync("ReceivingMessageFromAUser", userInput,messageInput);
+    async Task Addfocus() =>
+    await hubConnection.SendAsync("Added the focus event", userInput);
+    async Task Removefocus() =>
+    await hubConnection.SendAsync("Applied the blur event");
     public bool IsConnected =>
         hubConnection.State == HubConnectionState.Connected;
 

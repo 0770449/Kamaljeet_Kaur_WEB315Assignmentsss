@@ -12,17 +12,18 @@
 <div class="form-group">
     <label>
         Message:
-        <input @bind="messageInput" size="50" />
+        <input @bind="messageInput" size="50" @onfocus="Addfocus" @onblur="Removefocus" />
     </label>
 </div>
-<button @onclick="Send" disabled="@(!IsConnected)">Send</button>
-
+<button @onclick="Send" disabled="@(!IsConnected)">Send </button>
+<button @onclick="SendMsgToCaller" disabled="@(!IsConnected)">Send to others than me </button>
 <hr>
 
 <ul id="messagesList">
     @foreach (var message in messages)
     {
         <li>@message</li>
+        <h2>@userisTyping</h2>
     }
 </ul>
 
@@ -31,17 +32,24 @@
     private List<string> messages = new List<string>();
     private string userInput;
     private string messageInput;
-
+    private string userisTyping;
     protected override async Task OnInitializedAsync()
     {
         hubConnection = new HubConnectionBuilder()
             .WithUrl(NavigationManager.ToAbsoluteUri("/chathub"))
             .Build();
 
-        hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
+        hubConnection.On<string, string>("ReceivingMessageFromAUser", (user, message) =>
         {
             var encodedMsg = $"{user}: {message}";
             messages.Add(encodedMsg);
+            StateHasChanged();
+        });
+         hubConnection.On<string>("ReceivingWhoIsTyping", (user) =>
+        {
+           
+          var userisTyping  =  $"{user} is typing";
+           messages.Add( userisTyping);
             StateHasChanged();
         });
 
@@ -49,8 +57,13 @@
     }
 
     async Task Send() =>
-        await hubConnection.SendAsync("SendMessage", userInput, messageInput);
-
+    await hubConnection.SendAsync("SendMessage", userInput, messageInput);
+    async Task SendMsgToCaller() =>
+    await hubConnection.SendAsync("ReceivingMessageFromAUser", userInput,messageInput);
+    async Task Addfocus() =>
+    await hubConnection.SendAsync("Added the focus event", userInput);
+    async Task Removefocus() =>
+    await hubConnection.SendAsync("Applied the blur event");
     public bool IsConnected =>
         hubConnection.State == HubConnectionState.Connected;
 

@@ -10,9 +10,11 @@ namespace KamaljeetKaurChat.Server.Hubs
 
             return Clients.All.SendAsync("ReceivingMessageFromAUser", user, message);
         }
-        public Task SendMessageToCaller(string user)
+        public Task SendTypePerson(string user)
         {
-            return Clients.Caller.SendAsync("ReceivingMessageFromAUser", user + " something special");
+            return Clients.All.SendAsync("ReceivingWhoisTyping", user);
         }
+        
+    
     }
 }

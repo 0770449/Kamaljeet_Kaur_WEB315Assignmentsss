@@ -8,39 +8,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 309358845,
-        "Kind": "Components.Component",
-        "Name": "KamaljeetKaurChat.Client.Pages.Chat",
-        "AssemblyName": "KamaljeetKaurChat.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Chat"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KamaljeetKaurChat.Client.Pages.Chat"
-        }
-      },
-      {
-        "HashCode": -1188164931,
-        "Kind": "Components.Component",
-        "Name": "KamaljeetKaurChat.Client.Pages.Chat",
-        "AssemblyName": "KamaljeetKaurChat.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "KamaljeetKaurChat.Client.Pages.Chat"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KamaljeetKaurChat.Client.Pages.Chat",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 786310544,
         "Kind": "Components.Component",
         "Name": "KamaljeetKaurChat.Client.Pages.Counter",
@@ -136,6 +103,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "KamaljeetKaurChat.Client.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 309358845,
+        "Kind": "Components.Component",
+        "Name": "KamaljeetKaurChat.Client.Pages.Chat",
+        "AssemblyName": "KamaljeetKaurChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Chat"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KamaljeetKaurChat.Client.Pages.Chat"
+        }
+      },
+      {
+        "HashCode": -1188164931,
+        "Kind": "Components.Component",
+        "Name": "KamaljeetKaurChat.Client.Pages.Chat",
+        "AssemblyName": "KamaljeetKaurChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KamaljeetKaurChat.Client.Pages.Chat"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KamaljeetKaurChat.Client.Pages.Chat",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
