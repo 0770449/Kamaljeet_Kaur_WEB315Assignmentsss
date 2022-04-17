@@ -120,7 +120,7 @@ using Microsoft.AspNetCore.SignalR.Client;
          hubConnection.On<string>("ReceivingWhoIsTyping", (user) =>
         {
            
-          var userisTyping  =  $"{user} is typing";
+          var userisTyping  =  $"{user} is typing the message";
            messages.Add( userisTyping);
             StateHasChanged();
         });
@@ -131,7 +131,7 @@ using Microsoft.AspNetCore.SignalR.Client;
     async Task Send() =>
     await hubConnection.SendAsync("SendMessage", userInput, messageInput);
     async Task SendMsgToCaller() =>
-    await hubConnection.SendAsync("ReceivingMessageFromAUser", userInput,messageInput);
+    await hubConnection.SendAsync("ReceivingMessageFromAUser", userInput);
     async Task Addfocus() =>
     await hubConnection.SendAsync("Added the focus event", userInput);
     async Task Removefocus() =>
