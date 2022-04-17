@@ -1,5 +1,15 @@
 @import '';
 
+/* /Pages/Chat.razor.rz.scp.css */
+.form-group[b-zwi9wjxrnf]{
+         background-color: blanchedalmond;
+         font-size: 1.4em;  
+        }
+#messagesList[b-zwi9wjxrnf]{
+            display:inline-block;
+            margin-left: 20px;
+            color: black;
+           }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-xsblhz8cs4] {
     position: relative;

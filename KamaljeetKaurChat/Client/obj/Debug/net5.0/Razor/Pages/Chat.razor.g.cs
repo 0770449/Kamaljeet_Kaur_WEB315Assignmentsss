@@ -94,10 +94,12 @@ using Microsoft.AspNetCore.SignalR.Client;
         {
             __builder.OpenElement(0, "div");
             __builder.AddAttribute(1, "class", "form-group");
-            __builder.OpenElement(2, "label");
-            __builder.AddMarkupContent(3, "\r\n        Name:\r\n        ");
-            __builder.OpenElement(4, "input");
-            __builder.AddAttribute(5, "value", Microsoft.AspNetCore.Components.BindConverter.FormatValue(
+            __builder.AddAttribute(2, "b-zwi9wjxrnf");
+            __builder.OpenElement(3, "label");
+            __builder.AddAttribute(4, "b-zwi9wjxrnf");
+            __builder.AddMarkupContent(5, "\r\n        Name:\r\n        ");
+            __builder.OpenElement(6, "input");
+            __builder.AddAttribute(7, "value", Microsoft.AspNetCore.Components.BindConverter.FormatValue(
 #nullable restore
 #line 9 "C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Client\Pages\Chat.razor"
                       userInput
@@ -106,19 +108,22 @@ using Microsoft.AspNetCore.SignalR.Client;
 #line hidden
 #nullable disable
             ));
-            __builder.AddAttribute(6, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.CreateBinder(this, __value => userInput = __value, userInput));
+            __builder.AddAttribute(8, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.CreateBinder(this, __value => userInput = __value, userInput));
             __builder.SetUpdatesAttributeName("value");
+            __builder.AddAttribute(9, "b-zwi9wjxrnf");
             __builder.CloseElement();
             __builder.CloseElement();
             __builder.CloseElement();
-            __builder.AddMarkupContent(7, "\r\n");
-            __builder.OpenElement(8, "div");
-            __builder.AddAttribute(9, "class", "form-group");
-            __builder.OpenElement(10, "label");
-            __builder.AddMarkupContent(11, "\r\n        Message:\r\n        ");
-            __builder.OpenElement(12, "input");
-            __builder.AddAttribute(13, "size", "50");
-            __builder.AddAttribute(14, "onfocus", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.FocusEventArgs>(this, 
+            __builder.AddMarkupContent(10, "\r\n");
+            __builder.OpenElement(11, "div");
+            __builder.AddAttribute(12, "class", "form-group");
+            __builder.AddAttribute(13, "b-zwi9wjxrnf");
+            __builder.OpenElement(14, "label");
+            __builder.AddAttribute(15, "b-zwi9wjxrnf");
+            __builder.AddMarkupContent(16, "\r\n        Message:\r\n        ");
+            __builder.OpenElement(17, "input");
+            __builder.AddAttribute(18, "size", "50");
+            __builder.AddAttribute(19, "onfocus", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.FocusEventArgs>(this, 
 #nullable restore
 #line 15 "C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Client\Pages\Chat.razor"
                                                         Addfocus
@@ -127,7 +132,7 @@ using Microsoft.AspNetCore.SignalR.Client;
 #line hidden
 #nullable disable
             ));
-            __builder.AddAttribute(15, "onblur", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.FocusEventArgs>(this, 
+            __builder.AddAttribute(20, "onblur", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.FocusEventArgs>(this, 
 #nullable restore
 #line 15 "C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Client\Pages\Chat.razor"
                                                                            Removefocus
@@ -136,7 +141,7 @@ using Microsoft.AspNetCore.SignalR.Client;
 #line hidden
 #nullable disable
             ));
-            __builder.AddAttribute(16, "value", Microsoft.AspNetCore.Components.BindConverter.FormatValue(
+            __builder.AddAttribute(21, "value", Microsoft.AspNetCore.Components.BindConverter.FormatValue(
 #nullable restore
 #line 15 "C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Client\Pages\Chat.razor"
                       messageInput
@@ -145,14 +150,15 @@ using Microsoft.AspNetCore.SignalR.Client;
 #line hidden
 #nullable disable
             ));
-            __builder.AddAttribute(17, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.CreateBinder(this, __value => messageInput = __value, messageInput));
+            __builder.AddAttribute(22, "onchange", Microsoft.AspNetCore.Components.EventCallback.Factory.CreateBinder(this, __value => messageInput = __value, messageInput));
             __builder.SetUpdatesAttributeName("value");
+            __builder.AddAttribute(23, "b-zwi9wjxrnf");
             __builder.CloseElement();
             __builder.CloseElement();
             __builder.CloseElement();
-            __builder.AddMarkupContent(18, "\r\n");
-            __builder.OpenElement(19, "button");
-            __builder.AddAttribute(20, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
+            __builder.AddMarkupContent(24, "\r\n");
+            __builder.OpenElement(25, "button");
+            __builder.AddAttribute(26, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
 #nullable restore
 #line 18 "C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Client\Pages\Chat.razor"
                   Send
@@ -161,7 +167,7 @@ using Microsoft.AspNetCore.SignalR.Client;
 #line hidden
 #nullable disable
             ));
-            __builder.AddAttribute(21, "disabled", 
+            __builder.AddAttribute(27, "disabled", 
 #nullable restore
 #line 18 "C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Client\Pages\Chat.razor"
                                     !IsConnected
@@ -170,11 +176,12 @@ using Microsoft.AspNetCore.SignalR.Client;
 #line hidden
 #nullable disable
             );
-            __builder.AddContent(22, "Send ");
+            __builder.AddAttribute(28, "b-zwi9wjxrnf");
+            __builder.AddContent(29, "Send ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(23, "\r\n");
-            __builder.OpenElement(24, "button");
-            __builder.AddAttribute(25, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
+            __builder.AddMarkupContent(30, "\r\n");
+            __builder.OpenElement(31, "button");
+            __builder.AddAttribute(32, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
 #nullable restore
 #line 19 "C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Client\Pages\Chat.razor"
                   SendMsgToCaller
@@ -183,7 +190,7 @@ using Microsoft.AspNetCore.SignalR.Client;
 #line hidden
 #nullable disable
             ));
-            __builder.AddAttribute(26, "disabled", 
+            __builder.AddAttribute(33, "disabled", 
 #nullable restore
 #line 19 "C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Client\Pages\Chat.razor"
                                                !IsConnected
@@ -192,11 +199,13 @@ using Microsoft.AspNetCore.SignalR.Client;
 #line hidden
 #nullable disable
             );
-            __builder.AddContent(27, "Send to others than me ");
+            __builder.AddAttribute(34, "b-zwi9wjxrnf");
+            __builder.AddContent(35, "Send to others than me ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(28, "\r\n<hr>\r\n\r\n");
-            __builder.OpenElement(29, "ul");
-            __builder.AddAttribute(30, "id", "messagesList");
+            __builder.AddMarkupContent(36, "\r\n<hr b-zwi9wjxrnf>\r\n\r\n");
+            __builder.OpenElement(37, "ul");
+            __builder.AddAttribute(38, "id", "messagesList");
+            __builder.AddAttribute(39, "b-zwi9wjxrnf");
 #nullable restore
 #line 23 "C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Client\Pages\Chat.razor"
      foreach (var message in messages)
@@ -205,8 +214,9 @@ using Microsoft.AspNetCore.SignalR.Client;
 #line default
 #line hidden
 #nullable disable
-            __builder.OpenElement(31, "li");
-            __builder.AddContent(32, 
+            __builder.OpenElement(40, "li");
+            __builder.AddAttribute(41, "b-zwi9wjxrnf");
+            __builder.AddContent(42, 
 #nullable restore
 #line 25 "C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Client\Pages\Chat.razor"
              message
@@ -216,9 +226,10 @@ using Microsoft.AspNetCore.SignalR.Client;
 #nullable disable
             );
             __builder.CloseElement();
-            __builder.AddMarkupContent(33, "\r\n        ");
-            __builder.OpenElement(34, "h2");
-            __builder.AddContent(35, 
+            __builder.AddMarkupContent(43, "\r\n        ");
+            __builder.OpenElement(44, "h2");
+            __builder.AddAttribute(45, "b-zwi9wjxrnf");
+            __builder.AddContent(46, 
 #nullable restore
 #line 26 "C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Client\Pages\Chat.razor"
              userisTyping

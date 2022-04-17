@@ -1,0 +1,9 @@
+.form-group{
+         background-color: blanchedalmond;
+         font-size: 1.4em;  
+        }
+#messagesList{
+            display:inline-block;
+            margin-left: 20px;
+            color: black;
+           }

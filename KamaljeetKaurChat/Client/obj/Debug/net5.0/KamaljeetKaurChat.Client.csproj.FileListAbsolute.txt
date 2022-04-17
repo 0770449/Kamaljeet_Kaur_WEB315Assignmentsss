@@ -660,3 +660,4 @@ C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetK
 C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\client\obj\Debug\net5.0\ref\KamaljeetKaurChat.Client.dll
 C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\client\obj\Debug\net5.0\KamaljeetKaurChat.Client.pdb
 C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Client\obj\Debug\net5.0\build-gz\46vQ0Iz+.gz
+C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Client\obj\Debug\net5.0\scopedcss\Pages\Chat.razor.rz.scp.css
