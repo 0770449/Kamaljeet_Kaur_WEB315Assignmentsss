@@ -204,12 +204,12 @@
       "netstandard.dll": "sha256-bY3Q1RCB\/lmUAo5AG5YDHBu5uD8OxCGAiJ+wukrs1pw=",
       "System.Private.CoreLib.dll": "sha256-25IZl0xgoqOBdkTlEjUBLmiiRGYCYI1BaFevKzE+EHk=",
       "KamaljeetKaurChat.Shared.dll": "sha256-WTgrZgzc4V6dg1uN3Nj+xTp+gNqF5IN5DdrihgLvQFc=",
-      "KamaljeetKaurChat.Client.dll": "sha256-8OZcBMFwcA75zsQqh36KPTFtinHT+JLYKPPjaRyvizg="
+      "KamaljeetKaurChat.Client.dll": "sha256-EtEStW+yAm7BBpZZ1pOWQ9tFrJvb57\/ejv8+cl95QEk="
     },
     "lazyAssembly": null,
     "pdb": {
       "KamaljeetKaurChat.Shared.pdb": "sha256-ZHWa0Xfmtqwn5WlChnLCCPBy5xVf7F0uEvSg9a+PHgo=",
-      "KamaljeetKaurChat.Client.pdb": "sha256-2RC8IdK5bVuLDFfbCchQUXPGcOzymAxYN7EA5JYrNDQ="
+      "KamaljeetKaurChat.Client.pdb": "sha256-Jajsxb764UAWIPPCTXaZyvZEPDxAsAOclFVLT0SsZno="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-Ek+C0V\/4GBnUGH1\/X20UjHhjyp7se2MX+2RHWSpKSDE=",

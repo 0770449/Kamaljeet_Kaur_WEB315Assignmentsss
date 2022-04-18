@@ -98,7 +98,7 @@ using Microsoft.AspNetCore.SignalR.Client;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 30 "C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Client\Pages\Chat.razor"
+#line 36 "C:\Users\hp\OneDrive\Documents\GitHub\WEB315Assignment_Kamaljeet_Kaur\KamaljeetKaurChat\Client\Pages\Chat.razor"
        
     private HubConnection hubConnection;
     private List<string> messages = new List<string>();
@@ -135,7 +135,7 @@ using Microsoft.AspNetCore.SignalR.Client;
     async Task Addfocus() =>
     await hubConnection.SendAsync("Added the focus event", userInput);
     async Task Removefocus() =>
-    await hubConnection.SendAsync("Applied the blur event");
+    await hubConnection.SendAsync("Applied the blur event", userInput);
     public bool IsConnected =>
         hubConnection.State == HubConnectionState.Connected;
 

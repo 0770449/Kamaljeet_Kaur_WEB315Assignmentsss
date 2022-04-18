@@ -1,3 +1,7 @@
+section{width:60%;
+        margin-top:30px;
+        }
+
 .form-group{
          background-color: blanchedalmond;
          font-size: 1.4em;  
@@ -9,3 +13,14 @@
             list-style: square;
             border:2px darkblue; 
            }
+button {
+        display: block;
+        border: 2px solid black;
+        background: #8f8f8f;
+       }
+        
+            
+button:hover {
+                background: pink;
+             }
+                      

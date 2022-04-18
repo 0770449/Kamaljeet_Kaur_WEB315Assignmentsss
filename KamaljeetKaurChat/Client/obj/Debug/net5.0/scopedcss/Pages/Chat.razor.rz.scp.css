@@ -1,3 +1,7 @@
+section[b-zwi9wjxrnf]{width:60%;
+        margin-top:30px;
+        }
+
 .form-group[b-zwi9wjxrnf]{
          background-color: blanchedalmond;
          font-size: 1.4em;  
@@ -9,3 +13,14 @@
             list-style: square;
             border:2px darkblue; 
            }
+button[b-zwi9wjxrnf] {
+        display: block;
+        border: 2px solid black;
+        background: #8f8f8f;
+       }
+        
+            
+button:hover[b-zwi9wjxrnf] {
+                background: pink;
+             }
+                      
