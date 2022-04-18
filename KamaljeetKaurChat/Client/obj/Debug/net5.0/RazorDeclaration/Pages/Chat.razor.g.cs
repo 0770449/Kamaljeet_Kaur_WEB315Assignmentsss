@@ -115,6 +115,8 @@ using Microsoft.AspNetCore.SignalR.Client;
         {
             var encodedMsg = $"{user}: {message}";
             messages.Add(encodedMsg);
+            userInput="";
+            messageInput="";
             StateHasChanged();
         });
          hubConnection.On<string>("ReceivingWhoIsTyping", (user) =>
